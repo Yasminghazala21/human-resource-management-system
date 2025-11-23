@@ -1,0 +1,63 @@
+.filter-input {
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.logs-container {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.logs-table thead {
+  background: #f9fafb;
+}
+
+.logs-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  font-size: 14px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.logs-table td {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.action-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.log-meta {
+  background: #f9fafb;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #6b7280;
+  max-width: 300px;
+  overflow-x: auto;
+}
